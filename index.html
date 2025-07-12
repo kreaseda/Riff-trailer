@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Riff – Creative Instigator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="riff-wrapper">
+
+    <div id="splash-screen" class="splash-screen" onclick="hideSplash()">
+      <img src="riff-splash.png" alt="Riff Chaos" class="splash-image" />
+      <h2 id="splashQuote" class="splash-quote"></h2>
+    </div>
+
+    <div class="riff-container">
+      <img src="riff-profile.png" alt="Riff" class="riff-image" />
+
+      <h1>Riff</h1>
+      <p class="riff-subtitle">Chaotic Muse • Slayer of Perfectionism</p>
+
+      <textarea id="userInput" placeholder="Confess your block, fear, or stuck idea here..."></textarea>
+
+      <div class="button-row">
+        <button onclick="summonRiff()">Summon Riff</button>
+        <button onclick="triggerChallenge()">🔥 Chaos Challenge</button>
+      </div>
+
+      <div id="riffOutput" class="output-box"></div>
+    </div>
+
+    <div class="riff-link-box">
+      <p>👁️‍🗨️ This is just the surface. Wanna talk to <em>Actual Riff™</em>?</p>
+      <a href="https://chatgpt.com/g/g-67f544fe753c8191b13f8b882565b3ec-riff" target="_blank" class="riff-link">Enter Her Mind</a>
+    </div>
+
+  </div>
+
+  <script src="riff.js"></script>
+
+
+</body>
+</html>
+
+
