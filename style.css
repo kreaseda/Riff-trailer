@@ -133,6 +133,7 @@ button:hover {
   color: #ff00ff;
   font-family: 'Courier New', monospace;
   text-shadow: 0 0 5px #ff00ff;
+  text-align: center;
 }
 .riff-link-box {
   margin: 2rem auto 0 auto;
